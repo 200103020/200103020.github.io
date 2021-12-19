@@ -1,0 +1,245 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.head1{
+    display: flex;  
+    height: 84px;
+    background: rgba(196, 196, 196, 0.38);
+}
+.head1 img{
+    position: absolute;
+    left: 93px;
+    top: 19px;
+    bottom: 18px;
+}
+.head1 h1{
+    position: absolute;
+    left: 186px;
+    top: 5px;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+}
+.head2{
+    display: flex;
+}
+.head2 h1{
+    display: flex;
+    position: absolute;
+    left: 148px;
+    top: 239px; 
+    font-family: 'Montserrat', sans-serif;    
+}
+.head2_text h2{
+    display: flex;
+    position: absolute;
+    left: 148px;
+    top: 220px;
+    font-family: Montserrat;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 98px;
+    letter-spacing: -0.05em;
+}
+.head2_text h3{
+    display: flex;
+    position: absolute;
+    left: 690px;
+    top: 210px;
+    font-family: Montserrat;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 98px;
+    letter-spacing: -0.05em; 
+}
+header{
+    width: 100%;
+    height: 553px;
+    background: url(about_images/first_back.png);
+}
+.only_text {
+    display: flex;
+    padding-top: 76px;
+    padding-left: 195px;
+    padding-right: 196px;
+    padding-bottom: 76px;
+    background: #F8F8F8;
+}
+.only_text h1{ 
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: -0.05em;
+    text-align: left;   
+}
+.mission{
+    margin-top: 49px;
+    display: flex;
+}
+.mission #sunset{
+    padding-left: 100px;
+    width: 500px;    
+}
+.mission h1{
+    padding-left: 75px;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: -0.05em;      
+}
+.mission h2{
+    padding-top: 20px;
+    padding-left: 75px;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.05em;
+    color: rgba(0, 0, 0, 0.69);
+}
+.mission ul{
+    padding-top: 8px;
+    list-style-type: none
+}
+.mission li{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.05em;
+    text-align: left;   
+    padding-top: 20px;
+    padding-left: 120px;
+}
+.numbers{
+    background: #F8F8F8;
+}
+.numbers h1{
+    padding-top: 77px;
+    padding-left: 126px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    letter-spacing: -0.05em;    
+}
+.numbers ul{
+    padding-left: 110px;
+    padding-top: 44px;
+    display: flex;
+}
+.numbers li{
+    position: relative;
+    padding-left: 144px;
+    display: flex;
+}
+.numbers img{
+    position: relative;
+    top: 25px;
+    width: 20px;
+    height: 20px;    
+}
+.numbers h2{
+    position: relative;
+    bottom : 65px;
+    left: 40px;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+}
+.numbers h3{
+    position: relative;
+    bottom : 110px; 
+    left: 40px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+#yandex {
+    width: 220px;
+    height: 86px;    
+}
+#kaspi{
+    width: 300px;
+    height: 85px;    
+}
+#kolesa{
+    width: 286px;
+    height: 88px;    
+}
+#jb{
+    width: 124px;
+    height: 101px;    
+}
+#kbtu{
+    width: 223px;
+    height: 113px;       
+}
+#sdu{
+    width: 273px;
+    height: 101px;    
+}
+#naz{
+    padding-left: 110px;
+    width: 238px;
+    height: 80px;   
+}
+#aitu{
+    width: 216px;
+    height: 101px;    
+    padding-left: 120px;
+}
+.posimg{
+    padding-left: 30px;
+}
+.images img{
+    padding-top: 48px;
+    padding-left: 90px;
+}
+.yelsec{
+    margin-top: 40px;
+    background: #FFE401;
+}
+a{
+    padding-left: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+.yeye{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 350px;
+}
+footer{
+    background: #343539;
+}
+footer #logotype{
+    padding-left: 580px;
+    padding-top: 40px;
+    width: 277px;
+    height: 154px;
+}
+.logos{
+    padding-left: 600px;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
