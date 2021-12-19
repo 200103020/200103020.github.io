@@ -57,7 +57,7 @@ body{
 header{
     width: 100%;
     height: 553px;
-    background: url(about_images/first_back.png);
+    background: url(../img/about_images/first_back.png) no-repeat center top;
 }
 .only_text {
     display: flex;
