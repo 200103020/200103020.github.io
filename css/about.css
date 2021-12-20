@@ -20,6 +20,13 @@ body{
     font-size: 36px;
     font-family: 'Montserrat', sans-serif;
 }
+.head1 a{
+    position: absolute;
+    left: 75px;
+    top: 20px;
+    width: 285px;
+    height: 60px;
+}
 .head2{
     display: flex;
 }
