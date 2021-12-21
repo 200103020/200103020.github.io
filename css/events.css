@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.head1{
+    display: flex;
+    height: 84px;
+    background: #FFFCDE;
+}
+.head1 img{
+    position: absolute;
+    left: 93px;
+    top: 19px;
+    bottom: 18px;
+}
+.head1 h1{
+    position: absolute;
+    left: 186px;
+    top: 5px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.05em;
+    
+    color: #000000;
+}
+.head1 a{
+    position: absolute;
+    left: 75px;
+    top: 20px;
+    width: 285px;
+    height: 60px;
+}
+.main{
+    margin-left: 60px;
+    margin-top:23px;
+}
+.ev h1{
+    padding-top: 8px;
+    padding-left: 17px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: -0.05em;    
+}
+.ev{    
+    background: #FFE401;
+    width: 210px;
+    height: 39px;  
+}
+#hall{
+    width: 663px;
+    height: 442px;    
+}
+.main h2{
+    position: relative;
+    bottom: 25px;
+    width: 564px;
+    height: 77px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 43px;
+    letter-spacing: -0.05em;       
+}
+#google{
+    width: 352px;
+    height: 235px;    
+}
+.main h3{
+    position: relative;
+    bottom: 260px;
+    left: 390px;
+    width: 289px;
+    height: 144px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.05em;        
+}
+#vr{
+    position: absolute;
+    top: 146px;
+    left: 800px;
+}
+.main h4{
+    position: absolute;
+    top: 120px;
+    left: 1170px;
+
+    width: 280px;
+    height: 138px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 23px;
+    letter-spacing: -0.05em;        
+}
+#ibm{
+    position: absolute;
+    top: 420px;
+    left: 800px;
+    width: 352px;
+    height: 235px;
+}
+.main h5{
+    position: absolute;
+    top: 390px;
+    left: 1170px;
+
+    width: 280px;
+    height: 168px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.05em;        
+}
+#hall2{
+    position: absolute;
+    left: 800px;
+    top: 725px;
+    width: 352px;
+    height: 235px;    
+}
+.main h6{
+    position: absolute;
+    top: 675px;
+    left: 1170px;    
+    width: 290px;
+    height: 168px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.05em;      
+}
+.yelsec{
+    position: absolute;
+    top: 1010px;
+    width: 1481.5px;
+    background: #FFE401;
+}
+.yeye a{
+    padding-left: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+.yeye{
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 350px;
+}
+footer{
+    position: absolute;
+    width: 1481.5px;    
+    top: 1048px;
+    background: #343539;
+}
+footer #logotype{
+    padding-left: 580px;
+    padding-top: 40px;
+    width: 277px;
+    height: 154px;
+}
+.logos{
+    padding-left: 600px;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+.logos a{
+    padding-left: 20px;
+}
