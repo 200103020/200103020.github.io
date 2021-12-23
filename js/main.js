@@ -90,4 +90,5 @@ $(document).ready(function(){
             $(this).children().height(column);
         });
     });
+
 });

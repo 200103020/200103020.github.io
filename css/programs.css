@@ -1,0 +1,187 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+
+div, p, input, header, a, form {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 21px 0 9px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+}
+
+.header:before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #FFFCDE;
+}
+.logo {
+    position: relative;
+    z-index: 2;
+}
+
+.logo img {
+    width: 17%;
+}
+
+.program_items {
+    padding: 100px 0;
+}
+
+.program_items h1 {
+    text-align: center;
+    margin: 58px 0 103px;
+    color: rgba(0, 0, 0, 0.23);
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_tabs {
+    display: block;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+
+.tab_cards {
+    display: flex;
+}
+.tab_cards img {
+    display: block;
+}
+
+.tab_text {
+    background: #FFFCDE;
+    padding: 42px 19px 68px;
+    width: 306px;
+}
+
+.tab_text h2 {
+    margin-bottom: 40px;
+}
+
+.tab_text p {
+    width: 254px;
+}
+
+.tabs_block {
+    display: none;
+}
+
+.tabs_block:target {
+    display: block;
+}
+
+.tabs_items {
+    padding: 20px 10px;
+    display: block;
+}
+
+.tabs_items a {
+    width: 100%;
+}
+
+
+.tabs_content {
+    display: block;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.mini_menu{
+    padding: 10px 0;
+    background: #FFE401;
+    text-align: center;
+}
+
+.mini_nav a {
+    font-size: 15px;
+    margin-right: 17px;
+}
+
+.mini_nav a:nth-child(6n) {
+    margin-right: 0px;
+}
+
+
+.footer {
+    padding: 20px 0;
+    background: #343539;
+}
+
+.footer_logo {
+    text-align: center;
+}
+
+.social {
+    margin-top: 12px;
+}
+
+.social a {
+    margin-right: 20px;
+}
+
+.social a:nth-child(5n) {
+    margin-right: 0px;
+}
+
+
+
+
+
+
+

@@ -147,6 +147,7 @@ form button {
     width: 100px;
     padding: 10px 0;
     border: none;
+    cursor: pointer;
 }
 
 .banner_side {
@@ -267,6 +268,7 @@ form button {
 
 .news_items {
     width: 298px;
+    cursor: pointer;
 }
 
 .news_desc  {
@@ -375,11 +377,13 @@ form button {
 
 .slick-arrow.slick-prev {
     left: 0;
-    background: url('../img/left.svg') 0 0 no-repeat;
+    background: url('../img/main/left.svg') 0 0 no-repeat;
+    cursor: pointer;
 }
 .slick-arrow.slick-next {
     right: 0;
-    background: url('../img/right.svg') 0 0 no-repeat;
+    background: url('../img/main/right.svg') 0 0 no-repeat;
+    cursor: pointer;
 }
 
 .mini_menu{
@@ -398,7 +402,7 @@ form button {
 }
 
 .footer {
-    padding: 40px 0;
+    padding: 20px 0;
     background: #343539;
 }
 

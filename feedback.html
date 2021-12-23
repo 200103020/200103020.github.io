@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/feedback.css">
+    <title>MineProff.com</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="img/main/logo3.png" alt="#"></a>
+            </div>
+        </div>
+    </header>
+    <section class="contacts">
+        <div class="container">
+            <h1>Contacts</h1>
+            <div class="contacts-form">
+                <p>To send us a message, fill out the form below:</p>
+                <div class="contacts-items">
+                    <div class="form">
+                        <div class="inputs">
+                            <input type="name" placeholder="Nickname">
+                            <input type="email" placeholder="Email">
+                        </div>
+                        <div class="btn">
+                            <a href="#">Send</a>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <textarea  placeholder="Message"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mini_menu">
+        <div class="container">
+            <div class="mini_nav">
+                <a href="about.html">ABOUT THE SITE</a>
+                <a href="login.html">LOGIN ACCOUNT</a>
+                <a href="#">MAINPROFF EVENTS</a>
+                <a href="#review">REVIEWS</a>
+                <a href="feedback.html">FEEDBACK</a>
+                <a href="#">BLOG</a>
+            </div>
+        </div>
+    </section>
+    <div id="myModal">
+        <p>Succesfull!</p>
+        <span id="myModal__close" class="close">ₓ</span>
+    </div>
+    <div id="myOverlay"></div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_logo">
+                <a href="index.html"><img src="./img/main/footerlogo.png" alt="#"></a>
+                <div class="social">
+                    <a href="#"><img src="./img/main/in.png" alt="#"></a>
+                    <a href="#"><img src="./img/main/vk.png" alt="#"></a>
+                    <a href="#"><img src="./img/main/fb.png" alt="#"></a>
+                    <a href="#"><img src="./img/main/yt.png" alt="#"></a>
+                    <a href="#"><img src="./img/main/tw.png" alt="#"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        $('.btn').click( function(event){
+        event.preventDefault();
+        $('#myOverlay').fadeIn(297,	function(){
+          $('#myModal') 
+          .css('display', 'block')
+          .animate({opacity: 1}, 198);
+        });
+      });
+    
+      $('#myModal__close, #myOverlay').click( function(){
+        $('#myModal').animate({opacity: 0}, 198, function(){
+          $(this).css('display', 'none');
+          $('#myOverlay').fadeOut(297);
+        });
+      });
+    </script>
+</body>
+</html>
