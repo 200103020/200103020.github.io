@@ -17,21 +17,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: 38px;
 }
-<<<<<<< HEAD
 
 h2 {
     font-size: 24px;
-=======
-.head1 a{
-    position: absolute;
-    left: 75px;
-    top: 20px;
-    width: 285px;
-    height: 60px;
-}
-.head2{
-    display: flex;
->>>>>>> d8b4379930614aff8600dfa814d1158d5589d689
 }
 
 
