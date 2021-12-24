@@ -6,6 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/create.css">
+        <script src="https://unpkg.com/scrollreveal"></script>
         <title>MainProff.com</title>
     </head>
 <body>
@@ -28,10 +29,10 @@
             <div class="tarifs">
                 <div class="main_words">
                     <hr>
-                    <h2>courses on mineproff</h2>
+                    <h2>courses on mainproff</h2>
                 </div>
                 <div class="course_contents">
-                    <div class="course_item">
+                    <div class="course_item" id="basic">
                         <img src="img/create/basic.png" alt="#">
                         <div class="content">
                             <div class="main_content">
@@ -48,7 +49,7 @@
                             <a href="#">Try for free</a>
                         </div>
                     </div>
-                    <div class="course_item">
+                    <div class="course_item" id="pro">
                         <img src="img/create/pro.png" alt="#">
                         <div class="content">
                             <div class="main_content">
@@ -67,7 +68,7 @@
                             <div class="promo">First 2 weeks free</div>
                         </div>
                     </div>
-                    <div class="course_item">
+                    <div class="course_item" id="enter">
                         <img src="img/create/enter.png" alt="#">
                         <div class="content">
                             <div class="main_content">
@@ -93,7 +94,7 @@
     <section class="FAQ">
         <div class="container">
             <div class="accordion">
-                <div class="accordion_wrap accordion_1">
+                <div class="accordion_wrap accordion_1" id="quests">
                   <div class="header-item">
                     What do you need to create a course on MainProff?
                   </div>
@@ -101,7 +102,7 @@
                     <p>You just need to register on the site and agree to the terms of its use. After that, you can create a course and select the desired rate. The course on creating courses on MainProff and the Knowledge Base will help you in creating a course.</p>
                   </div>
                 </div>
-                <div class="accordion_wrap accordion_2">
+                <div class="accordion_wrap accordion_2" id="quests">
                   <div class="header-item">
                     How do open courses differ from private ones?
                   </div>
@@ -109,14 +110,14 @@
                      <p>An open course is hosted on MineProff and anyone can get access to it, all courses fall into the general Stepik catalog and can be found in the search. A private course is a closed course on Stepik, access to which is determined by the author himself, inviting people to the course using a link or adding himself. Private courses are not displayed via a direct link, as well as in the MineProff catalog.</p>
                   </div>
                 </div>
-                <div class="accordion_wrap accordion_3">
+                <div class="accordion_wrap accordion_3" id="quests">
                   <div class="header-item">
                     What is the best tariff to choose?
                   </div>
                   <div class="text">
                     <p>If your goal is to create an open course for everyone, you will not have individual support for students and academic limitations, or if you want to work for MineProff for free - use the Basic plan. If your goal is to work with a small group of students or if you are interested in viewing report cards, course reports, exams, limiting attempts, issuing certificates, then we recommend PRO.</p>
                   </div>
-                  <div class="accordion_wrap accordion_3">
+                  <div class="accordion_wrap accordion_3" id="quests">
                     <div class="header-item">
                         Can I switch between tariffs?
                     </div>
@@ -160,6 +161,20 @@
             $(".header-item").removeClass("active");
             $(this).addClass("active");
         });
+    </script>
+    <script>
+        ScrollReveal({ 
+            reset: true,
+            distance: '60px',
+            duration: 2500, 
+            delay: 400 
+        });
+        ScrollReveal().reveal('.board h1', { delay: 250, origin: 'left'});
+        ScrollReveal().reveal('.main_words', { delay: 250, origin: 'bottom'});
+        ScrollReveal().reveal('#basic', { delay: 500, origin: 'left'});
+        ScrollReveal().reveal('#pro', { delay: 500, origin: 'bottom'});
+        ScrollReveal().reveal('#enter', { delay: 500, origin: 'right'});
+        ScrollReveal().reveal('#quests', { delay: 250, origin: 'bottom', interval: 250});
     </script>
 </body>
 </body>

@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>MainProff.com</title>
 </head>
 <body>
@@ -19,23 +20,27 @@
                     </div>
                     <nav class="nav">
                         <div class="nav_items">  
-                            <a href="#">
+                            <a class="navig" href="#">
                                 <img src="./img/main/events.svg" alt="#">
                                 <div>INTERNATIONAL EVENTS</div>
                             </a>
+<<<<<<< HEAD
                             <a href="blog.html">
+=======
+                            <a class="navig" href="#">
+>>>>>>> 9780dfcd83b90be70da9c7ff6e4ed9f8e161588e
                                 <img src="./img/main/news.svg" alt="#">
                                 <div>MAINPROFF  BLOG</div>
                             </a>
-                            <a href="programs.html">
+                            <a class="navig" href="programs.html">
                                 <img src="./img/main/edu.svg" alt="#">
                                 <div>EDUCATIONAL SECTION MAINPROFF</div>
                             </a>
-                            <a href="about.html">
+                            <a class="navig" href="about.html">
                                 <img src="./img/main/about.svg" alt="#">
                                 <div>ABOUT MAINPROFF</div>
                             </a>
-                            <a href="create.html">
+                            <a class="navig" href="create.html">
                                 <img src="./img/main/creating.svg" alt="#">
                                 <div href="#">CREATING COURSES</div>
                             </a>
@@ -76,28 +81,28 @@
         <div class="container">
             <h1><span>Take the best directions </span>prepared by universities, companies and individual authors on Mineproff</h1>
             <div class="programs">
-                <div class="program_item">
+                <div class="program_item" id="firstprog">
                     <img src="./img/main/analytics.png" alt="#">
                     <div class="program_desc">
                         <h3>Analytics</h3>
                         <a href="#">More details</a>
                     </div>
                 </div>
-                <div class="program_item">
+                <div class="program_item" id="firstprog">
                     <img src="./img/main/proga.png" alt="#">
                     <div class="program_desc">
                         <h3>Programming</h3>
                         <a href="#">More details</a>
                     </div>
                 </div>
-                <div class="program_item">
+                <div class="program_item" id="secondprog">
                     <img src="./img/main/design.png" alt="#">
                     <div class="program_desc">
                         <h3>Design</h3>
                         <a href="#">More details</a>
                     </div>
                 </div>
-                <div class="program_item">
+                <div class="program_item" id="secondprog">
                     <img src="./img/main/marketing.png" alt="#">
                     <div class="program_desc">
                         <h3>Marketing</h3>
@@ -257,5 +262,26 @@
     <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="js/slick.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script>
+        ScrollReveal({ 
+            reset: true,
+            distance: '60px',
+            duration: 2500, 
+            delay: 400 
+        });
+        ScrollReveal().reveal('.logo', { delay: 250, origin: 'left'});
+        ScrollReveal().reveal('.navig', { delay: 250, origin: 'left', interval: 150 });
+        ScrollReveal().reveal('.reg', { delay: 250, origin: 'right'});
+        ScrollReveal().reveal('.log', { delay: 250, origin: 'right'});
+        ScrollReveal().reveal('.reg', { delay: 250, origin: 'right'});
+        ScrollReveal().reveal('.banner_side', { delay: 250, origin: 'bottom'});  
+        ScrollReveal().reveal('.direction h1', { delay: 250, origin: 'bottom'});  
+        ScrollReveal().reveal('.program_item', { delay: 250, origin: 'bottom'}); 
+        ScrollReveal().reveal('.att', { delay: 250, origin: 'left'}); 
+        ScrollReveal().reveal('.news_items', { delay: 250, origin: 'bottom'}); 
+        ScrollReveal().reveal('.news_btn', { delay: 250, origin: 'left'}); 
+        ScrollReveal().reveal('.ad', { delay: 250, origin: 'right'}); 
+        ScrollReveal().reveal('.review', { delay: 250, origin: 'bottom'}); 
+    </script>
 </body>
 </html>

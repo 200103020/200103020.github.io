@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/programs.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>MainProff.com</title>
 </head>
 <body>
@@ -188,5 +189,15 @@
             </div>
         </div>
     </footer>
+    <script>
+        ScrollReveal({ 
+            reset: true,
+            distance: '60px',
+            duration: 2500, 
+            delay: 400 
+        });
+        ScrollReveal().reveal('.program_items h1', { delay: 250, origin: 'top'});
+        ScrollReveal().reveal('.nav_tabs li', { delay: 250, origin: 'bottom', interval: 150});
+    </script>
 </body>
 </html>
