@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/blog.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>MainProff.com</title>
 </head>
 <body>
@@ -27,7 +28,7 @@
                 </div>
             </div>
             <div class="blog-items">
-                <div class="news_items">
+                <div class="news_items" id="itemsanim">
                     <img src="./img/main/google.png" alt="#" class="image">
                     <div class="news_desc">
                         <h4>Making Google Chrome beautiful / Customization, design and plugins</h4>
@@ -48,7 +49,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="news_items">
+                <div class="news_items" id="itemsanim">
                     <img src="./img/main/linux.png" alt="#" class="image">
                     <div class="news_desc">
                         <h4>4 best Linux distros to stay anonymous</h4>
@@ -69,7 +70,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="news_items">
+                <div class="news_items" id="itemsanim">
                     <img src="./img/main/java.png" alt="#" class="image">
                     <div class="news_desc">
                         <h4>7 Java books for beginners, knowledge base and professionals </h4>
@@ -90,7 +91,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="news_items">
+                <div class="news_items" id="itemsanim">
                     <img src="./img/blog/parrot.png" alt="#" class="image">
                     <div class="news_desc">
                         <h4>Why are developers so angry?</h4>
@@ -111,7 +112,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="news_items">
+                <div class="news_items" id="itemsanim">
                     <img src="./img/blog/api.png" alt="#" class="image">
                     <div class="news_desc">
                         <h4>15 interesting and funny APIs</h4>
@@ -132,7 +133,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="news_items">
+                <div class="news_items" id="itemsanim">
                     <img src="./img/blog/git.png" alt="#" class="image">
                     <div class="news_desc">
                         <h4>10 GitHub Repositories Every Developer Will Need</h4>
@@ -298,9 +299,9 @@
                 <a href="about.html">ABOUT THE SITE</a>
                 <a href="login.html">LOGIN ACCOUNT</a>
                 <a href="events.html">MAINPROFF EVENTS</a>
-                <a href="#review">REVIEWS</a>
+                <a href="create.html">TARIFS</a>
                 <a href="feedback.html">FEEDBACK</a>
-                <a href="blog.html">BLOG</a>
+                <a href="blog.html">BLOG</a>    
             </div>
         </div>
     </section>
@@ -320,5 +321,18 @@
     </footer>
     <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="js/blog.js"></script>
+    <script>
+        ScrollReveal({ 
+            distance: '60px',
+            duration: 2500, 
+            delay: 400 
+        });
+        ScrollReveal().reveal('.blog h1', { delay: 250, origin: 'top'});
+        ScrollReveal().reveal('.newest img', { delay: 250, origin: 'left'});
+        ScrollReveal().reveal('.n-text h2', { delay: 250, origin: 'right'});
+        ScrollReveal().reveal('#itemsanim', { delay: 250, origin: 'bottom', interval: 200});
+        ScrollReveal().reveal('.n-text p', { delay: 250, origin: 'bottom'});
+        ScrollReveal().reveal('.n-text p', { delay: 250, origin: 'bottom'});    
+    </script>
 </body>
 </html>

@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/events.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>MainProff.com</title>
 </head>
 <body>
@@ -26,15 +27,15 @@
                     <p>Experts from Amazon Web Services, Google, Landing AI, Microsoft, MIT, NVIDIA, Open AI, the University of Waterloo, and more discuss artificial intelligence (AI) and business leadership</p>
                 </div>
                 <div class="events2">
-                    <div class="events">
+                    <div class="events" id="first">
                         <img src="img/event/vr.png" alt="#">
                         <h3>In Data & Analytics Summit focuses exactly on that: how your organization can develop a resilient data and analytics strategy that leverages both data-driven decision making and AI.</h3>
                     </div>
-                    <div class="events">
+                    <div class="events" id="second">
                         <img src="img/event/ibm.png" alt="#">
                         <h3>IBM Think is IBM’s global flagship conference. This year’s digital event experience will take everything online, but its premise is the same:to be the leading AI and hybrid cloud event in the world.</h3>
                     </div>
-                    <div class="events">
+                    <div class="events" id="third">
                         <img src="img/event/dublin.png" alt="#">
                         <h3>The Dublin Tech Summit brings together top global leaders in technology, innovation, and business to help shape the future of trends and technologies. The 2020 DTS event was also online, with over 5,000 participants from 60+ countries.</h3>
                     </div>
@@ -48,9 +49,9 @@
                 <a href="about.html">ABOUT THE SITE</a>
                 <a href="login.html">LOGIN ACCOUNT</a>
                 <a href="events.html">MAINPROFF EVENTS</a>
-                <a href="#review">REVIEWS</a>
+                <a href="create.html">TARIFS</a>
                 <a href="feedback.html">FEEDBACK</a>
-                <a href="#">BLOG</a>
+                <a href="blog.html">BLOG</a>    
             </div>
         </div>
     </section>
@@ -67,6 +68,19 @@
                 </div>
             </div>
         </div>
-    </footer>           
+    </footer>      
+    <script>
+        ScrollReveal({ 
+            distance: '60px',
+            duration: 2500, 
+            delay: 400 
+        });
+        ScrollReveal().reveal('.main h4', { delay: 250, origin: 'left'});
+        ScrollReveal().reveal('.event-items', { delay: 250, origin: 'bottom'});
+        ScrollReveal().reveal('#first', { delay: 250, origin: 'top'});
+        ScrollReveal().reveal('#second', { delay: 250, origin: 'right'});
+        ScrollReveal().reveal('#third', { delay: 250, origin: 'bottom'});
+
+    </script>     
 </body>
 </html>
