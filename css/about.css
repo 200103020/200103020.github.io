@@ -86,6 +86,7 @@ a {
 .motto {
     padding: 100px 0;
     background: url('../img/about_images/first_back.png') 0 0 no-repeat;
+    background-size: 100%;
 }
 
 .motto h1 {

@@ -76,6 +76,7 @@ a {
 .board {
     padding: 200px 0 40px;
     background: url(../img/create/create.png) no-repeat top center;
+    background-size: 100%;
 }
 
 .board h1 {

@@ -92,9 +92,10 @@ a {
     display: block;
     font-weight: bold;
     font-size: 25px;
+    background: #FFFCDE;
+    padding: 30px;
+    height: 267px;
 }
-
-
 
 .tab_cards {
     display: flex;
@@ -126,7 +127,7 @@ a {
 }
 
 .tabs_items {
-    padding: 20px 10px;
+    margin-bottom: 30px;
     display: block;
 }
 
@@ -178,10 +179,3 @@ a {
 .social a:nth-child(5n) {
     margin-right: 0px;
 }
-
-
-
-
-
-
-
