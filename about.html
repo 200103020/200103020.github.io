@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/about.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>MainProff.com</title>
 </head>
 <body>
@@ -123,5 +124,24 @@
             </div>
         </div>
     </footer>
+    <script>
+        ScrollReveal({ 
+            reset: true,
+            distance: '60px',
+            duration: 2500, 
+            delay: 400 
+        });
+        ScrollReveal().reveal('.about', { delay: 250, origin: 'top'});
+        ScrollReveal().reveal('.motto_words h1', { delay: 250, origin: 'bottom'});
+        ScrollReveal().reveal('.only_text', { delay: 250, origin: 'bottom'});
+        ScrollReveal().reveal('.support1 img', { delay: 250, origin: 'top', });
+        ScrollReveal().reveal('.support2 img', { delay: 250, origin: 'bottom', });
+        ScrollReveal().reveal('.mission h1', { delay: 250, origin: 'top', });
+        ScrollReveal().reveal('#sunset', { delay: 250, origin: 'left', });
+        ScrollReveal().reveal('.mission1 p', { delay: 250, origin: 'right', });
+        ScrollReveal().reveal('.mission1 li', { delay: 250, origin: 'bottom', interval: 150});
+        ScrollReveal().reveal('.numbers h1', { delay: 250, origin: 'top', });
+        ScrollReveal().reveal('.items', { delay: 250, origin: 'right', interval: 300});
+    </script>
 </body>
 </html>
