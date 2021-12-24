@@ -17,21 +17,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: 38px;
 }
-<<<<<<< HEAD
 
 h2 {
     font-size: 24px;
-=======
-.head1 a{
-    position: absolute;
-    left: 75px;
-    top: 20px;
-    width: 285px;
-    height: 60px;
-}
-.head2{
-    display: flex;
->>>>>>> d8b4379930614aff8600dfa814d1158d5589d689
 }
 
 
@@ -85,7 +73,6 @@ a {
     width: 100%;
     height: 100%;
     background: rgba(196, 196, 196, 0.38);
-    /* background: #FFFCDE; */
 }
 .logo {
     position: relative;
@@ -172,7 +159,7 @@ a {
 }
 
 .mission_content img {
-    width: 60%;
+    width: 67%;
 }
 
 .mission1 {

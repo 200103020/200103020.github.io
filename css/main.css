@@ -38,19 +38,6 @@ ul, li {
     display: block;
 }
 
-ul {
-    list-style-position: inside;
-    list-style: #E8882F;
-}
-
-li {
-    color: #E8882F;
-}
-
-li span {
-    color: #000;
-}
-
 p {
 	margin: 0;
 	padding: 0;
@@ -274,7 +261,6 @@ form button {
 .news_desc  {
     width: 290px;
     margin: 16px 0 30px;
-    align-items: stretch;
 }
 
 .news_desc h4  {
