@@ -83,3 +83,18 @@ $(".previous-page").on("click", function(){
 return showPage(currentPage - 1);
 });
 });
+
+
+ScrollReveal({ 
+    distance: '60px',
+    duration: 2500, 
+    delay: 400 
+});
+ScrollReveal().reveal('.blog h1', { delay: 250, origin: 'top'});
+ScrollReveal().reveal('.newest img', { delay: 250, origin: 'left'});
+ScrollReveal().reveal('.n-text h2', { delay: 250, origin: 'right'});
+ScrollReveal().reveal('#itemsanim', { delay: 250, origin: 'bottom', interval: 200});
+ScrollReveal().reveal('.n-text p', { delay: 250, origin: 'bottom'});
+ScrollReveal().reveal('.n-text p', { delay: 250, origin: 'bottom'});
+ScrollReveal().reveal('.program_items h1', { delay: 250, origin: 'top'});
+ScrollReveal().reveal('.nav_tabs li', { delay: 250, origin: 'bottom', interval: 150});
