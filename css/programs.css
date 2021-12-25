@@ -95,6 +95,7 @@ a {
     background: #FFFCDE;
     padding: 30px;
     height: 267px;
+    margin-right: 20px;
 }
 
 .tab_cards {
@@ -120,7 +121,24 @@ a {
 
 .tabs_block {
     display: none;
+    position: relative;
 }
+
+.tabs__block:before {
+	content: "";
+	position: absolute;
+}
+
+.tabs_items:hover {
+    background-color: #FFE401;
+    padding: 10px;
+}
+
+.tabs_items span {
+	position: relative;
+	z-index: 2;
+}
+
 
 .tabs_block:target {
     display: block;
@@ -129,6 +147,7 @@ a {
 .tabs_items {
     margin-bottom: 30px;
     display: block;
+    transition: all 0.3s ease 0.3s;
 }
 
 .tabs_items a {
